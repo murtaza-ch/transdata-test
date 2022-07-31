@@ -1,0 +1,19 @@
+{
+  "name": "transdata-test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.0.10",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0"
+  }
+}
